@@ -12,7 +12,10 @@ public class Main{
          list.insertAtPos(50,4);
          list.delbefore();
          list.delbefore();
-        System.out.println(list.length()); 
+         list.delAfter();
+        list.deleAtPos(2);
+        System.out.println("the length of the linkedlist is : "+list.length());
+       
     list.print();
 }
 }
